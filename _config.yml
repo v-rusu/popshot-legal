@@ -1,0 +1,9 @@
+title: Popshot Legal
+description: Privacy Policy and Terms for Popshot by VAR TIM SOFTWARE SRL
+theme: minima
+plugins:
+  - jekyll-seo-tag
+markdown: kramdown
+kramdown:
+  input: GFM
+

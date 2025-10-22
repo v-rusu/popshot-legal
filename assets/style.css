@@ -1,0 +1,7 @@
+:root { --w: 740px; }
+body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin:0; padding:0; }
+.main { max-width: var(--w); margin: 48px auto; padding: 0 20px; }
+h1,h2,h3 { line-height: 1.2; }
+hr { margin: 28px 0; }
+footer { color:#777; font-size:14px; margin:40px 0; }
+
