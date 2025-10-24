@@ -8,7 +8,7 @@ permalink: /privacy-policy
 
 # Privacy Policy
 
-_Last updated: October 22, 2025_
+_Last updated: October 24, 2025_
 
 This Privacy Policy describes how **VAR TIM SOFTWARE SRL** (“**we**”, “**us**”, or “**our**”) collects, uses, and protects personal information in connection with the mobile application **Popshot** (“**App**”).
 
@@ -38,6 +38,10 @@ We collect and process only the minimum data necessary to operate and improve Po
 | **Crash Data** | Firebase Crashlytics error logs | To identify and fix app crashes or bugs | Anonymized logs retained for diagnostic purposes |
 | **Purchase Identifiers** | RevenueCat-generated user ID | To manage in-app purchases and restore subscriptions | Retained for as long as necessary to manage billing and purchase history |
 
+### Face Data (Landmarks & Masks)
+
+**Face Data (Landmarks & Masks)**: During editing, Popshot may compute non-identifying facial landmarks and segmentation masks from user-provided photos to locate the face region (e.g., boundaries, keypoints) and apply edits precisely. Popshot does not collect or store biometric identifiers or "faceprints," and does not perform facial recognition or identity verification. These derived data are ephemeral and are not retained after processing is complete.
+
 ---
 
 ## 3. How We Use Your Data
@@ -52,6 +56,10 @@ We use collected data to:
 
 We **do not sell, rent, or share personal data** with any third party for advertising or marketing purposes.
 
+### Face-aware Editing & Alignment
+
+We use ephemeral facial landmarks and segmentation masks solely to: (i) apply edits limited to the face region (e.g., lighting, exposure, red-eye, skin retouch), (ii) generate subject-aware masks for background/scene changes and style remixes, and (iii) align templates/styles while preserving natural facial features. These data are not used for identification, authentication, advertising, profiling, or model training.
+
 ---
 
 ## 4. Cloud Processing
@@ -61,6 +69,10 @@ Images and related metadata may be **temporarily stored** during processing and 
 
 All transfers are encrypted in transit and at rest.
 
+### Face Data Handling
+
+Popshot performs AI processing on secure cloud infrastructure. Facial landmarks and segmentation masks exist only in memory during processing and are discarded immediately after the operation completes. User photos may be temporarily stored on encrypted cloud storage solely to deliver the requested edit. All transfers and storage are encrypted in transit and at rest.
+
 ---
 
 ## 5. Data Retention
@@ -68,6 +80,10 @@ All transfers are encrypted in transit and at rest.
 - Uploaded content: deleted within **90 days** after subscription expiry.  
 - Crash and analytics data: retained as aggregate, non-identifiable statistics.  
 - Purchase and transaction records: retained for accounting and legal compliance as required by applicable law.
+
+### Face Data
+
+Facial landmarks and segmentation masks are not retained after processing (typically seconds to minutes). User photos are stored only as needed for processing and are deleted in accordance with this Policy, including within 90 days after a subscription becomes inactive.
 
 ---
 
@@ -93,6 +109,10 @@ We may share limited technical data with trusted service providers solely to ope
 | **App Store (Apple)** | Distribution and analytics | App engagement metrics |
 
 All third-party providers comply with GDPR and process data under Data Processing Agreements (DPAs).
+
+### Face Data
+
+Popshot does not sell or share face data (landmarks, masks) with third parties for advertising or marketing. Limited processing by cloud service providers occurs under data processing agreements strictly to operate the App's features. Face data is not persisted by these providers beyond processing.
 
 ---
 
@@ -136,6 +156,10 @@ We implement technical and organizational safeguards to protect user data, inclu
 - Routine deletion of inactive data
 
 While no system is perfectly secure, we take all reasonable steps to protect your information.
+
+### Face Data
+
+We protect user photos and any ephemeral face-related processing with encryption in transit and at rest, strict access controls, and data minimization. Face-related derived data are ephemeral and discarded immediately after processing.
 
 ---
 
